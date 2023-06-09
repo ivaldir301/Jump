@@ -1,0 +1,146 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.example::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE and Edge */
+  .example {
+    -ms-overflow-style: none;
+  }
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Hide scrollbars */ 
+}
+
+p{
+    font-size: 1.3em;
+    color: white;
+}
+
+.timer{
+    float: right;
+    color: white;
+    font-size: 1em;
+}
+
+.btnvoltar{
+    float: left;
+    width: 130px;
+    height: 100px;
+    margin: 20px 20px 20px;
+}
+
+.game{
+    width: 1500px;
+    height: 100%;
+    margin: 0;
+    background: url(../img/cenarios/forest1.gif) center no-repeat;
+    background-size: cover;
+}
+
+.loose{
+    padding: 30px;
+    width: 500px;
+    height: 520px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: -25%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.record{
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+}
+
+#pontos{
+    text-align: center;
+    margin: auto;
+    margin-top: 25%;
+}
+
+#botao{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    top: 130px;
+    left:800px;
+}
+
+h1{
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.perder{
+    margin: auto;
+    margin-left: 38%;
+    margin-top: 10%;
+}
+
+.player{
+    position: relative;
+    top: 450px;
+    left: 50px;
+}
+
+.obstacle{
+    position: relative;
+    top: 310px;
+    left: 1000px;
+    animation: move 1.5s infinite linear;
+    z-index: 1;
+}
+
+/* Animações para o personagem no jogo */
+
+/*Para o personagem*/
+.animate {
+    animation: jump 3s linear;
+}
+
+@keyframes jump{
+    0%{
+        top: 300px;
+        left: 20px;
+    }
+    30%{
+        top: 150px;
+        left: 30px;
+    }
+    75%{
+        top: 150px;
+        left: 40px;
+    }
+    100%{
+        top: 300px;
+        left: 50px;
+    }
+}
+
+
+/*Para o obstaculo*/
+
+@keyframes move{
+    0%{
+        left: 790px;
+    }
+    100%{
+        left: -150px;
+    }
+}
+
+@media only screen and(min-width: 768px){
+    
+}

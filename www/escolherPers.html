@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <title>Personagem</title>
+    <link rel="stylesheet" href="css/escolherPers.css">
+</head>
+<body>
+    <h1>Escolha seu Corredor</h1>
+    <img src="img/botaovoltar.png"  onclick="goPage() " class="btnvoltar" alt=""> 
+    <br><br><br><br><br><br>
+    <div class="personagens">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/players/man1.gif" alt="Card image cap">
+            <div class="card-body">
+            <h5 class="card-title">Jõao Domingos</h5>
+            <a href="#" onclick="escolha(1)" class="btn btn-primary">Escolher</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/players/women1.gif" alt="Card image cap">
+            <div class="card-body">
+            <h5 class="card-title">Shacks</h5>
+            <a href="#" onclick="escolha(2)" class="btn btn-primary">Escolher</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/players/women2.gif" alt="Card image cap">
+            <div class="card-body">
+            <h5 class="card-title">Joana Ferrari</h5>
+            <a href="#" onclick="escolha(3)" class="btn btn-primary">Escolher</a>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="js/escolherPers.js"></script>
+</body>
+</html>

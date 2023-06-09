@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('../img/montains.jpg');
+    background-size: cover;
+}
+
+.listatop{
+    padding: 20px;
+    margin-top: 30px;
+    width: 600px;
+    height: 500px;
+    margin-left: 25%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color: white;
+    margin-top: 20px;
+}
+
+#nomeplayerlocal{
+    color: white;
+    margin-top: 10px;
+}
+
+#nomeplayer{
+    color: white;
+    margin-top: 10px;
+}
+
+.btnvoltar{
+    float: left;
+    width: 130px;
+    height: 100px;
+    margin: 20px 20px 20px;
+}

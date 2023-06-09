@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">        <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="css/jogo.css">
+    <title>Jogo</title>
+</head>
+<body>
+
+    <div class="game">
+        <img src="img/botaovoltar.png"  onclick="goPage() " class="btnvoltar" alt="">
+        <div class="tempo">
+            <span class="timer" id="hour">00 </span> <span class="timer"  id="minute">00</span><span class="timer"  id="second">00</span><span class="timer"  id="millisecond">00</span>
+        </div>
+        <div class="player">
+            <img id="player" src="img/players/man1.gif" alt="the_runner"/>
+        </div>
+        <div class="obstacle" id="obstacle">
+            <img src="img/cenarios/obstaculo1.png" alt="">
+        </div>
+
+        <div class="loose">
+            <h1>Tu perdeste</h1>
+            <img class="perder" src="img/perder.gif" alt="">
+            <p id="pontos">Pontos: 0</p>
+            <p id="recorde" class="record">Recorde: 0</p>
+            <center>
+                <br>
+                <p>Pressione a tecla espaço para voltar a jogar</p>
+                <br>
+            </center>
+        </div>
+        <a href="" onclick="jump()"><img src="img/redbutton.png" id="botao" alt=""></a>
+    </div>
+
+    <script src="js/jogo.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+
+body{
+    background-image: url("../img/montains.jpg");
+    background-size: cover;
+}
+
+.menu{
+    margin-top: 30px;
+    padding: 20px;
+    margin: auto;
+}
+
+.box{
+    margin: auto auto auto;
+    padding: 20px;
+    width: 500px;
+    height: 450px;
+    background-color: aqua;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.imagem{
+    margin-left: 0%;
+}
+
+h2{
+    color: white;
+}
+

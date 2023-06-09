@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1{
+    font-size: 2em;
+}
+
+.card{
+    float: left;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 110px;
+    width: 500px;
+    height: 400px;
+}
+
+.btnvoltar{
+    float: left;
+    width: 130px;
+    height: 100px;
+    margin: 20px 20px 20px;
+}
